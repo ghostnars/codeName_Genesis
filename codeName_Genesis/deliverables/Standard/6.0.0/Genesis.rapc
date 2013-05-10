@@ -1,0 +1,11 @@
+MIDlet-Name: codeName_Genesis
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Description: ME & WE
+MIDlet-Jar-URL: codeName_Genesis.jar
+MIDlet-Jar-Size: 0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: MEWE,img/icon.png,
+RIM-MIDlet-Flags-1: 0
+

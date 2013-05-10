@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+RIM-COD-Module-Name: ScreenTransitionsDemo
+RIM-COD-Module-Dependencies: net_rim_cldc
+MIDlet-Jar-Size: 18394
+MIDlet-1: Screen Transitions Demo,img/screentransitionsdemo_jde.png,
+RIM-COD-Creation-Time: 1368135891
+MIDlet-Jar-URL: ScreenTransitionsDemo.jar
+RIM-COD-URL: ScreenTransitionsDemo.cod
+RIM-COD-SHA1: 69 2e 50 aa 37 ab 07 57 e0 cd a5 80 74 03 8c 68 82 8f 09 b5
+RIM-COD-Size: 9280
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 0.9
+MIDlet-Name: ScreenTransitionsDemo
+MIDlet-Vendor: Research In Motion Ltd.
+MicroEdition-Profile: MIDP-2.0
+RIM-MIDlet-Flags-1: 0

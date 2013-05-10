@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="TableAndListDemo">
+		<name >
+			Table and List Demo
+		</name>
+		<description >
+			
+		</description>
+		<version >
+			0.9
+		</version>
+		<vendor >
+			Research in Motion Ltd.
+		</vendor>
+		<copyright >
+			Copyright (c) 2013 Research in Motion Ltd.
+		</copyright>
+		<fileset Java="1.55" _blackberryVersion="[6.0.0)">
+			<directory >
+				6.0.0
+			</directory>
+			<files >
+				TableAndListDemo.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>
