@@ -7,6 +7,7 @@ import net.rim.device.api.ui.Field;
 import net.rim.device.api.ui.FieldChangeListener;
 import net.rim.device.api.ui.Font;
 import net.rim.device.api.ui.FontFamily;
+import net.rim.device.api.ui.Graphics;
 import net.rim.device.api.ui.XYEdges;
 import net.rim.device.api.ui.component.BasicEditField;
 import net.rim.device.api.ui.component.Dialog;
@@ -24,6 +25,8 @@ import com.samples.toolkit.ui.component.LabeledSwitch;
 import com.samples.toolkit.ui.container.JustifiedHorizontalFieldManager;
 
 import estilos.Estilos;
+import estilos.Estilos.ColorText;
+import estilos.Estilos.HorizontalField;
 
 /**
  * A class extending the MainScreen class, which provides default standard
@@ -36,10 +39,10 @@ public class crearCuenta3 extends Estilos
 	Bitmap bannerImage;
 	Bitmap bordes = Bitmap.getBitmapResource("bordes.png");
 	
-    Bitmap switch_left = Bitmap.getBitmapResource("switch_left.png");
-    Bitmap switch_right = Bitmap.getBitmapResource("switch_right.png");
-    Bitmap switch_left_focus = Bitmap.getBitmapResource("switch_left_focus.png");
-    Bitmap switch_right_focus = Bitmap.getBitmapResource("switch_right_focus.png");
+	Bitmap switch_left = Bitmap.getBitmapResource("switch_left_mujer.png");
+    Bitmap switch_right = Bitmap.getBitmapResource("switch_right_hombre.png");
+    Bitmap switch_left_focus = Bitmap.getBitmapResource("switch_left_focus_mujer.png");
+    Bitmap switch_right_focus = Bitmap.getBitmapResource("switch_right_focus_hombre.png");
     
 	int tFuente;
 	
@@ -106,31 +109,21 @@ public class crearCuenta3 extends Estilos
 		 	   System.out.println(e.getMessage());
 		 }
 		
-    	//Banner
-		HorizontalFieldManager head = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER){
-            public int getPreferredWidth()
-            {
-                return bannerImage.getWidth();
-            }
-            public int getPreferredHeight()
-            {
-                return bannerImage.getHeight();
-            }  
-            protected void sublayout( int maxWidth, int maxHeight )
-            {
-                super.sublayout(getPreferredWidth(), getPreferredHeight());
-                setExtent(getPreferredWidth(), getPreferredHeight());
-            }
-        };	
+    	/**Banner*/
+		getMainManager().setBackground(BackgroundFactory.createBitmapBackground(Bitmap.getBitmapResource("background.png")));    	
+		HorizontalField head = new HorizontalField(bannerImage.getWidth(),bannerImage.getHeight(),HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER);	
         head.setBackground(BackgroundFactory.createBitmapBackground(bannerImage));
-		head.add(new RichTextField("CREAR CUENTA" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE));
+        ColorText tituloHead = new ColorText("INGRESAR",0x374f5c ,RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER);
+        tituloHead.setMargin(5, 0, 0, 0);
+        tituloHead.setFont(fBold);
+        head.add(tituloHead);
 		setBanner(head);
-		//End Banner
+		/**End Banner*/
 		
 		//Title
-		LabelField info = new LabelField("INTRODUCE LOS SIGUIENTES CAMPOS", RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
+		ColorText info = new ColorText("INTRODUCE LOS SIGUIENTES CAMPOS",0x374f5c , RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
 		info.setFont(fLite);
-		info.setMargin(10, 20, 10, 20);
+		info.setMargin(20, 20, 10, 20);
 		add(info);
 		//End Title
 		
@@ -152,7 +145,11 @@ public class crearCuenta3 extends Estilos
         };
         vfmNombre.setBorder(BorderFactory.createBitmapBorder(new XYEdges(12,12,12,12), bordes));
         //vfmNombre.setMargin(top, 0, bottom, 0);
-        txtCorreo = new BasicEditField("Nombre: ", "", 30,BasicEditField.FILTER_DEFAULT);      
+        txtCorreo = new BasicEditField("Nombre: ", "", 30,BasicEditField.FILTER_DEFAULT){
+            public void paint(Graphics g){      
+                g.setColor(0x374f5c);
+                super.paint(g);
+            }};         
         vfmNombre.add(txtCorreo);
        	add(vfmNombre);
        	/**end campo nombre*/
@@ -160,15 +157,16 @@ public class crearCuenta3 extends Estilos
        	
 		/**campo genero*/
        	HorizontalFieldManager hfmGenero = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER);
-        LabeledSwitch callSwitch = new LabeledSwitch(switch_left, switch_right, switch_left_focus, switch_right_focus, "Masculino", "Femenino", true );
-        JustifiedHorizontalFieldManager phoneCalls = new JustifiedHorizontalFieldManager( new LabelField( "" ), callSwitch, false, (USE_ALL_WIDTH/2)+(USE_ALL_WIDTH/4) );
-        phoneCalls.setPadding(5,5,5,5);
-        hfmGenero.add(phoneCalls);
-        hfmGenero.setPadding(10,0,10,0);
+       	LabeledSwitch switchGen = new LabeledSwitch(switch_left, switch_right, switch_left_focus, switch_right_focus, "Mujer", "Hombre", true );
+		JustifiedHorizontalFieldManager jhfGen = new JustifiedHorizontalFieldManager( new LabelField( "" ), switchGen, false, (USE_ALL_WIDTH/2)+(USE_ALL_WIDTH/4) | JustifiedHorizontalFieldManager.FIELD_HCENTER );
+        jhfGen.setPadding(5,5,5,5);
+        hfmGenero.add(jhfGen);
+        hfmGenero.setPadding(10,0,0,0);
        	add(hfmGenero);
        	/**end campo genero*/
        	
-       	
+		
+        
         BitmapButtonField btnYaUser = new BitmapButtonField(btnYa,btnYa1,Field.FIELD_HCENTER);
         btnYaUser.setChangeListener( new FieldChangeListener( ) {
             public void fieldChanged( Field field, int context ) {
@@ -180,8 +178,4 @@ public class crearCuenta3 extends Estilos
         add(btnYaUser);
        
     }
-	public boolean onClose() {
-		pushScreenBack(new crearCuenta2());
-		return true;
-	}
 }

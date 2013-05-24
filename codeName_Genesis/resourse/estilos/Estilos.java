@@ -65,10 +65,25 @@ public abstract class Estilos extends MainScreen{
 	public class ColorLabel extends LabelField
 	{
 		private int color;
-		public ColorLabel(String string,int style)
+		public ColorLabel(String string,int colored,long style)
 		{
-			super(string);
-			this.color =  style;
+			super(string,style);
+			this.color =  colored;
+		}
+		
+		public void paint(Graphics g)
+		{      
+			g.setColor(color);
+			super.paint(g);
+		}
+	}
+	public class ColorText extends RichTextField
+	{
+		private int color;
+		public ColorText(String string,int colored,long style)
+		{
+			super(string,style | RichTextField.NON_FOCUSABLE);
+			this.color =  colored;
 		}
 		
 		public void paint(Graphics g)

@@ -6,7 +6,6 @@ import net.rim.device.api.ui.Field;
 import net.rim.device.api.ui.FieldChangeListener;
 import net.rim.device.api.ui.Font;
 import net.rim.device.api.ui.FontFamily;
-import net.rim.device.api.ui.component.LabelField;
 import net.rim.device.api.ui.component.RichTextField;
 import net.rim.device.api.ui.container.HorizontalFieldManager;
 import net.rim.device.api.ui.container.VerticalFieldManager;
@@ -90,29 +89,19 @@ public class crearCuenta1 extends Estilos
 		 	   System.out.println(e.getMessage());
 		 }
 		
-    	//Banner
-		HorizontalFieldManager head = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER){
-            public int getPreferredWidth()
-            {
-                return bannerImage.getWidth();
-            }
-            public int getPreferredHeight()
-            {
-                return bannerImage.getHeight();
-            }  
-            protected void sublayout( int maxWidth, int maxHeight )
-            {
-                super.sublayout(getPreferredWidth(), getPreferredHeight());
-                setExtent(getPreferredWidth(), getPreferredHeight());
-            }
-        };	
+    	/**Banner*/
+		getMainManager().setBackground(BackgroundFactory.createBitmapBackground(Bitmap.getBitmapResource("background.png")));    	
+		HorizontalField head = new HorizontalField(bannerImage.getWidth(),bannerImage.getHeight(),HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER);	
         head.setBackground(BackgroundFactory.createBitmapBackground(bannerImage));
-		head.add(new RichTextField("CREAR CUENTA" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE));
+        ColorText tituloHead = new ColorText("INGRESAR",0x374f5c ,RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER);
+        tituloHead.setMargin(5, 0, 0, 0);
+        tituloHead.setFont(fBold);
+        head.add(tituloHead);
 		setBanner(head);
-		//End Banner
+		/**End Banner*/
 		
 		//Title
-		LabelField info = new LabelField("¿CÓMO QUIERES CREAR TU CUENTA?", RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
+		ColorText info = new ColorText("¿CÓMO QUIERES CREAR TU CUENTA?",0x374f5c, RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
 		info.setFont(fLite);
 		info.setMargin(20, 20, 20, 20);
 		add(info);
@@ -134,7 +123,7 @@ public class crearCuenta1 extends Estilos
         add(btnNuevoUser);
         add(btnYaUser);
         //Head
-        LabelField infoTerminos = new LabelField("Dándote de alta en nuestro servicio aceptas nuestros Términos de Servicio y Privacidad", RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE );
+        ColorText infoTerminos = new ColorText("Dándote de alta en nuestro servicio aceptas nuestros Términos de Servicio y Privacidad",0x374f5c, RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE );
         infoTerminos.setFont(fLite);
         infoTerminos.setMargin(30, 20, 10, 20);
   		add(infoTerminos);

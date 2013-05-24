@@ -27,6 +27,8 @@ import com.samples.toolkit.ui.container.ListStyleButtonSet;
 
 import eligeHabito.EligeHabito1;
 import estilos.Estilos;
+import estilos.Estilos.ColorText;
+import estilos.Estilos.HorizontalField;
 
 /**
  * A class extending the MainScreen class, which provides default standard
@@ -36,7 +38,7 @@ public class Home extends Estilos implements FieldChangeListener
 {
 	Bitmap caret = Bitmap.getBitmapResource( "chevron_right_black_15x22.png" );
 	Bitmap imgLogo = Bitmap.getBitmapResource( "logo.png" );
-	Bitmap bordes = Bitmap.getBitmapResource("bordes.png");
+	Bitmap bordes = Bitmap.getBitmapResource("bordes1.png");
 	
 	Bitmap bannerImage;
 	
@@ -62,7 +64,7 @@ public class Home extends Estilos implements FieldChangeListener
     public Home()
     {        
     	//getMainManager().setBackground(BackgroundFactory.createLinearGradientBackground(Color.BLACK,Color.BLACK,Color.BLACK,Color.BLACK));
-		
+		//getMainManager().setBackground(BackgroundFactory.createBitmapBackground(Bitmap.getBitmapResource("background.png")));
     	if (Display.getWidth() == 320)
 		{
 			bannerImage = Bitmap.getBitmapResource("head_320.png");
@@ -108,32 +110,23 @@ public class Home extends Estilos implements FieldChangeListener
 		 	   System.out.println(e.getMessage());
 		 }
 		
-    	//Banner
-		HorizontalFieldManager head = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER){
-            public int getPreferredWidth()
-            {
-                return bannerImage.getWidth();
-            }
-            public int getPreferredHeight()
-            {
-                return bannerImage.getHeight();
-            }  
-            protected void sublayout( int maxWidth, int maxHeight )
-            {
-                super.sublayout(getPreferredWidth(), getPreferredHeight());
-                setExtent(getPreferredWidth(), getPreferredHeight());
-            }
-        };	
+    	/**Banner*/
+		getMainManager().setBackground(BackgroundFactory.createBitmapBackground(Bitmap.getBitmapResource("background.png")));    	
+		HorizontalField head = new HorizontalField(bannerImage.getWidth(),bannerImage.getHeight(),HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER);	
         head.setBackground(BackgroundFactory.createBitmapBackground(bannerImage));
-		head.add(new RichTextField("HOME" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE));
+        ColorText tituloHead = new ColorText("HOME",0x374f5c ,RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER);
+        tituloHead.setMargin(5, 0, 0, 0);
+        tituloHead.setFont(fBold);
+        head.add(tituloHead);
 		setBanner(head);
+		/**End Banner*/
 
 		
 		/**contenido1*/
 		
 		VerticalFieldManager allContent1 = new VerticalFieldManager();
 		allContent1.setBorder(BorderFactory.createBitmapBorder(new XYEdges(12,12,12,12), bordes));
-		//allContent1.setMargin(5, 5, 5, 5);
+		allContent1.setMargin(5, 5, 5, 5);
 		
 		HorizontalFieldManager contentNivel = new HorizontalFieldManager(HorizontalFieldManager.FIELD_LEFT);
 		
@@ -149,7 +142,7 @@ public class Home extends Estilos implements FieldChangeListener
 		
 		VerticalFieldManager contentPorcentage = new VerticalFieldManager();
 		
-		ColorLabel lblRestantes = new ColorLabel("8,349 PUNTOS PARA NIVEL 21",Color.DIMGRAY);
+		ColorText lblRestantes = new ColorText("8,349 PUNTOS PARA NIVEL 21",Color.DIMGRAY,0);
 		lblRestantes.setFont(fLite);
 		lblRestantes.setMargin(5, 10, 5, 5);
 		contentPorcentage.add(lblRestantes);
@@ -161,7 +154,7 @@ public class Home extends Estilos implements FieldChangeListener
 		
 		VerticalFieldManager contentLogros = new VerticalFieldManager();
 		
-		LabelField lblLogro = new LabelField("LOGROS" );
+		ColorText lblLogro = new ColorText("LOGROS",0x374f5c ,0 );
 		lblLogro.setFont(fBold);
 		lblLogro.setMargin(10, 10, 5, 5);
 		
@@ -194,7 +187,7 @@ public class Home extends Estilos implements FieldChangeListener
 		
 		HorizontalFieldManager contentDetalle = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER);
 		
-		LabelField lblHabito = new LabelField("HABITOS");
+		ColorText lblHabito = new ColorText("HABITOS",0x374f5c ,0);
 		lblHabito.setFont(fBold);
 		lblHabito.setMargin(5, 10, 15, 10);
 		contentDetalle.add(lblHabito);
@@ -203,12 +196,12 @@ public class Home extends Estilos implements FieldChangeListener
 		
 		VerticalFieldManager contentHabitos = new VerticalFieldManager(VerticalFieldManager.FIELD_LEFT);
 		
-		LabelField lblActuales = new LabelField("3 ACTUALES", LabelField.FIELD_LEFT);
+		ColorText lblActuales = new ColorText("3 ACTUALES",0x374f5c , LabelField.FIELD_LEFT);
 		lblActuales.setFont(fLite);
 		lblActuales.setMargin(5, 20, 5, 20);
 		contentHabitos.add(lblActuales);
 		
-		LabelField lblCompletados = new LabelField("2 COMPLETADOS", LabelField.FIELD_LEFT);
+		ColorText lblCompletados = new ColorText("2 COMPLETADOS",0x374f5c , LabelField.FIELD_LEFT);
 		lblCompletados.setFont(fLite);
 		lblCompletados.setMargin(5, 20, 5, 20);
 		contentHabitos.add(lblCompletados);

@@ -2,10 +2,12 @@ package crearCueta;
 
 import net.rim.device.api.system.Bitmap;
 import net.rim.device.api.system.Display;
+import net.rim.device.api.ui.Color;
 import net.rim.device.api.ui.Field;
 import net.rim.device.api.ui.FieldChangeListener;
 import net.rim.device.api.ui.Font;
 import net.rim.device.api.ui.FontFamily;
+import net.rim.device.api.ui.Graphics;
 import net.rim.device.api.ui.XYEdges;
 import net.rim.device.api.ui.component.BasicEditField;
 import net.rim.device.api.ui.component.Dialog;
@@ -21,6 +23,8 @@ import com.samples.toolkit.ui.component.AutoScaleImageField;
 import com.samples.toolkit.ui.component.BitmapButtonField;
 
 import estilos.Estilos;
+import estilos.Estilos.ColorText;
+import estilos.Estilos.HorizontalField;
 
 /**
  * A class extending the MainScreen class, which provides default standard
@@ -98,29 +102,19 @@ public class crearCuenta2 extends Estilos
 		 	   System.out.println(e.getMessage());
 		 }
 		
-    	//Banner
-		HorizontalFieldManager head = new HorizontalFieldManager(HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER){
-            public int getPreferredWidth()
-            {
-                return bannerImage.getWidth();
-            }
-            public int getPreferredHeight()
-            {
-                return bannerImage.getHeight();
-            }  
-            protected void sublayout( int maxWidth, int maxHeight )
-            {
-                super.sublayout(getPreferredWidth(), getPreferredHeight());
-                setExtent(getPreferredWidth(), getPreferredHeight());
-            }
-        };	
+    	/**Banner*/
+		getMainManager().setBackground(BackgroundFactory.createBitmapBackground(Bitmap.getBitmapResource("background.png")));    	
+		HorizontalField head = new HorizontalField(bannerImage.getWidth(),bannerImage.getHeight(),HorizontalFieldManager.FIELD_HCENTER | HorizontalFieldManager.FIELD_VCENTER);	
         head.setBackground(BackgroundFactory.createBitmapBackground(bannerImage));
-		head.add(new RichTextField("CREAR CUENTA" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE));
+        ColorText tituloHead = new ColorText("INGRESAR",0x374f5c ,RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER);
+        tituloHead.setMargin(5, 0, 0, 0);
+        tituloHead.setFont(fBold);
+        head.add(tituloHead);
 		setBanner(head);
-		//End Banner
+		/**End Banner*/
 		
 		//Title
-		LabelField info = new LabelField("INTRODUCE LOS SIGUIENTES CAMPOS", RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
+		ColorText info = new ColorText("INTRODUCE LOS SIGUIENTES CAMPOS",0x374f5c , RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER );
 		info.setFont(fLite);
 		info.setMargin(10, 20, 10, 20);
 		add(info);
@@ -144,7 +138,11 @@ public class crearCuenta2 extends Estilos
         };
         vfmCorreo.setBorder(BorderFactory.createBitmapBorder(new XYEdges(12,12,12,12), bordes));
         //vfmCorreo.setMargin(top, 0, bottom, 0);
-        txtCorreo = new BasicEditField("Correo: ", "", 30,BasicEditField.FILTER_DEFAULT);      
+        txtCorreo = new BasicEditField("Correo: ", "", 30,BasicEditField.FILTER_DEFAULT){
+            public void paint(Graphics g){      
+                g.setColor(0x374f5c);
+                super.paint(g);
+            }};       
         vfmCorreo.add(txtCorreo);
        	add(vfmCorreo);
        	/**end campo correo*/
@@ -168,7 +166,11 @@ public class crearCuenta2 extends Estilos
         };
         vfmPass.setBorder(BorderFactory.createBitmapBorder(new XYEdges(12,12,12,12), bordes));
         //vfmCorreo.setMargin(top, 0, bottom, 0);
-        txtPass = new PasswordEditField ("Password: ", "", 20,BasicEditField.FILTER_DEFAULT);      
+        txtPass = new PasswordEditField ("Password: ", "", 20,BasicEditField.FILTER_DEFAULT){
+            public void paint(Graphics g){      
+                g.setColor(0x374f5c);
+                super.paint(g);
+            }};     
         vfmPass.add(txtPass);
        	add(vfmPass);
        	/**end campo password*/
@@ -183,7 +185,7 @@ public class crearCuenta2 extends Estilos
         });
         add(btnYaUser);
         //Head
-        LabelField infoTerminos = new LabelField("Dándote de alta en nuestro servicio aceptas nuestros Términos de Servicio y Privacidad", RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE );
+        ColorText infoTerminos = new ColorText("Dándote de alta en nuestro servicio aceptas nuestros Términos de Servicio y Privacidad",0x374f5c, RichTextField.FIELD_HCENTER | RichTextField.TEXT_ALIGN_HCENTER | RichTextField.NON_FOCUSABLE );
         infoTerminos.setFont(fLite);
         infoTerminos.setMargin(10, 20, 10, 20);
   		add(infoTerminos);

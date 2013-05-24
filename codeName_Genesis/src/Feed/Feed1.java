@@ -209,9 +209,9 @@ public class Feed1 extends Estilos implements FieldChangeListener
     	/**resize image end*/
         VerticalField Contenido = new VerticalField(190,50,Field.FIELD_LEFT);
         
-        ColorLabel lblContenido = new ColorLabel("Nacho ha conseguido la medalla Comer más fruta",Color.BLACK);  
+        ColorLabel lblContenido = new ColorLabel("Nacho ha conseguido la medalla Comer más fruta",Color.BLACK,0);  
         lblContenido.setFont(fLite);
-        ColorLabel lblHora		= new ColorLabel("Hace 10 minutos",Color.DARKGRAY);	
+        ColorLabel lblHora		= new ColorLabel("Hace 10 minutos",Color.DARKGRAY,0);	
         lblHora.setFont(fLite);
 		
 	    lista.addElement(new ListStyleButtonField( null, i+"\n"+"¡Vamos!", null,ListStyleButtonField.FIELD_RIGHT|ListStyleButtonField.FIELD_HCENTER|ListStyleButtonField.FIELD_VCENTER){
