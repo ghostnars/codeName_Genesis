@@ -27,22 +27,22 @@ import net.rim.device.api.ui.*;
  */
 public class PillButtonField extends BaseButtonField
 {
-    private static final int CORNER_RADIUS = 18;
+    private static final int CORNER_RADIUS = 0;
     
     public static int DRAWPOSITION_LEFT = 0;
     public static int DRAWPOSITION_RIGHT = 1;
     public static int DRAWPOSITION_MIDDLE = 2;
     public static int DRAWPOSITION_SINGLE = 3;
     
-    public static final int COLOUR_BORDER              = 0x212121;
-    public static final int COLOUR_BORDER_FOCUS        = 0x212121;
-    public static final int COLOUR_BORDER_SELECTED     = 0x212121;
-    public static final int COLOUR_TEXT                = 0xD6D6D6;
+    public static final int COLOUR_BORDER              = 0x6eb8b9;
+    public static final int COLOUR_BORDER_FOCUS        = 0x6eb8b9;
+    public static final int COLOUR_BORDER_SELECTED     = 0x6eb8b9;
+    public static final int COLOUR_TEXT                = 0xffffff;
     public static final int COLOUR_TEXT_FOCUS          = 0xFFFFFF;
     public static final int COLOUR_TEXT_SELECTED       = 0xFFFFFF;
-    public static final int COLOUR_BACKGROUND          = 0x727272;
+    public static final int COLOUR_BACKGROUND          = 0xa0b7b6;
     public static final int COLOUR_BACKGROUND_FOCUS    = 0x125DDE;
-    public static final int COLOUR_BACKGROUND_SELECTED = 0x32427E;
+    public static final int COLOUR_BACKGROUND_SELECTED = 0x6eb8b9;
 
     private static final int XPADDING = Display.getWidth() <= 320 ? 6 : 8;
     private static final int YPADDING = Display.getWidth() <= 320 ? 5 : 7;
@@ -85,7 +85,7 @@ public class PillButtonField extends BaseButtonField
 
     public int getPreferredHeight()
     {
-        return 2 * YPADDING + _buttonFont.getHeight();
+        return 2 * YPADDING + _buttonFont.getHeight()+10;
     }
         
     protected void layout( int width, int height )
@@ -143,7 +143,7 @@ public class PillButtonField extends BaseButtonField
             }
             
             g.setColor( foregroundColor );
-            g.drawText( _text, 0, YPADDING, DrawStyle.HCENTER, _width ); 
+            g.drawText( _text, 0, YPADDING+5,DrawStyle.HCENTER, _width ); 
         } finally {
             g.setColor( oldColour );
         }
@@ -174,7 +174,7 @@ public class PillButtonField extends BaseButtonField
             if( _drawPosition == 0 ) {
                 // Left
                 drawButtonBackground( g, 0, 0, getWidth() + CORNER_RADIUS, getHeight(), backgroundColor, borderColor );
-                drawSeparator( g, 0, 0, getWidth(), getHeight(), false, true );
+                drawSeparator( g, 0, 0, getWidth(), getHeight(), false, false );
             } else if( _drawPosition == 1 ) {
                 // Right 
                 drawButtonBackground( g, -CORNER_RADIUS, 0, getWidth() + CORNER_RADIUS, getHeight(), backgroundColor, borderColor );

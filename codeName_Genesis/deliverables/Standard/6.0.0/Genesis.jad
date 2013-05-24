@@ -1,11 +1,15 @@
+RIM-COD-URL-81: Genesis-81.cod
 Manifest-Version: 1.0
 RIM-COD-URL-80: Genesis-80.cod
-MIDlet-Jar-Size: 1470051
+MIDlet-Jar-Size: 1893338
 RIM-COD-URL-79: Genesis-79.cod
+RIM-COD-Size-83: 67464
 RIM-COD-URL-78: Genesis-78.cod
+RIM-COD-Size-82: 42344
 RIM-COD-URL-77: Genesis-77.cod
+RIM-COD-Size-81: 51112
 RIM-COD-URL-76: Genesis-76.cod
-RIM-COD-Size-80: 67428
+RIM-COD-Size-80: 51112
 RIM-COD-URL-75: Genesis-75.cod
 RIM-COD-URL-74: Genesis-74.cod
 RIM-COD-URL-73: Genesis-73.cod
@@ -13,22 +17,22 @@ MicroEdition-Configuration: CLDC-1.1
 RIM-COD-URL-72: Genesis-72.cod
 RIM-COD-URL-71: Genesis-71.cod
 RIM-COD-URL-70: Genesis-70.cod
-RIM-COD-Size-79: 42304
-RIM-COD-Size-78: 51024
-RIM-COD-Size-77: 51072
+RIM-COD-Size-79: 51112
+RIM-COD-Size-78: 52752
+RIM-COD-Size-77: 51112
 MIDlet-Version: 1.0.0
-RIM-COD-Size-76: 51072
-RIM-COD-Size-75: 51072
-RIM-COD-Size: 65472
-RIM-COD-Size-74: 51072
+RIM-COD-Size-76: 51112
+RIM-COD-Size-75: 51112
+RIM-COD-Size: 67284
+RIM-COD-Size-74: 51112
 RIM-COD-URL-69: Genesis-69.cod
-RIM-COD-Size-73: 51072
+RIM-COD-Size-73: 51112
 RIM-COD-URL-68: Genesis-68.cod
-RIM-COD-Size-72: 51072
+RIM-COD-Size-72: 51112
 RIM-COD-URL-67: Genesis-67.cod
-RIM-COD-Size-71: 51072
+RIM-COD-Size-71: 51112
 RIM-COD-URL-66: Genesis-66.cod
-RIM-COD-Size-70: 51072
+RIM-COD-Size-70: 51112
 RIM-COD-URL-65: Genesis-65.cod
 RIM-COD-URL-64: Genesis-64.cod
 RIM-COD-URL-63: Genesis-63.cod
@@ -37,47 +41,47 @@ RIM-COD-URL-61: Genesis-61.cod
 RIM-COD-URL-60: Genesis-60.cod
 RIM-MIDlet-Flags-1: 0
 MIDlet-Name: codeName_Genesis
-RIM-COD-Size-69: 51072
-RIM-COD-Size-68: 51072
-RIM-COD-Size-67: 51020
-RIM-COD-Size-66: 51072
-RIM-COD-Size-65: 51072
-RIM-COD-Size-64: 51072
+RIM-COD-Size-69: 51112
+RIM-COD-Size-68: 51112
+RIM-COD-Size-67: 58552
+RIM-COD-Size-66: 51112
+RIM-COD-Size-65: 51112
+RIM-COD-Size-64: 51112
 RIM-COD-URL-59: Genesis-59.cod
-RIM-COD-Size-63: 51072
+RIM-COD-Size-63: 51112
 RIM-COD-URL-58: Genesis-58.cod
-RIM-COD-Size-62: 51072
+RIM-COD-Size-62: 51108
 RIM-COD-URL-57: Genesis-57.cod
-RIM-COD-Size-61: 51072
+RIM-COD-Size-61: 51108
 RIM-COD-URL-56: Genesis-56.cod
-RIM-COD-Size-60: 51072
+RIM-COD-Size-60: 51108
 RIM-COD-URL-55: Genesis-55.cod
 RIM-COD-URL-54: Genesis-54.cod
 RIM-COD-URL-53: Genesis-53.cod
 RIM-COD-URL-52: Genesis-52.cod
 RIM-COD-URL-51: Genesis-51.cod
 RIM-COD-URL-50: Genesis-50.cod
-RIM-COD-Size-59: 51068
-RIM-COD-Size-58: 51068
-RIM-COD-Size-57: 51068
-RIM-COD-Size-56: 51020
+RIM-COD-Size-59: 51108
+RIM-COD-Size-58: 51108
+RIM-COD-Size-57: 51108
+RIM-COD-Size-56: 50812
 RIM-COD-URL-9: Genesis-9.cod
-RIM-COD-Size-55: 51068
+RIM-COD-Size-55: 51108
 RIM-COD-URL-8: Genesis-8.cod
-RIM-COD-Size-54: 51068
+RIM-COD-Size-54: 51108
 RIM-COD-URL-49: Genesis-49.cod
 RIM-COD-URL-7: Genesis-7.cod
-RIM-COD-Size-53: 51068
+RIM-COD-Size-53: 51108
 RIM-COD-URL-48: Genesis-48.cod
 RIM-COD-URL-6: Genesis-6.cod
 MicroEdition-Profile: MIDP-2.0
-RIM-COD-Size-52: 51068
+RIM-COD-Size-52: 51108
 RIM-COD-URL-47: Genesis-47.cod
 RIM-COD-URL-5: Genesis-5.cod
-RIM-COD-Size-51: 51068
+RIM-COD-Size-51: 51108
 RIM-COD-URL-46: Genesis-46.cod
 RIM-COD-URL-4: Genesis-4.cod
-RIM-COD-Size-50: 51068
+RIM-COD-Size-50: 51108
 RIM-COD-URL-45: Genesis-45.cod
 RIM-COD-URL-3: Genesis-3.cod
 RIM-COD-URL-44: Genesis-44.cod
@@ -86,172 +90,178 @@ RIM-COD-URL-43: Genesis-43.cod
 RIM-COD-URL-1: Genesis-1.cod
 RIM-COD-URL-42: Genesis-42.cod
 RIM-COD-URL-41: Genesis-41.cod
-RIM-COD-Size-9: 51024
+RIM-COD-Size-9: 51064
 RIM-COD-URL-40: Genesis-40.cod
-RIM-COD-Size-8: 51024
-RIM-COD-Size-7: 51024
-RIM-COD-Size-6: 51024
-RIM-COD-Size-5: 51024
-RIM-COD-Size-4: 54164
-RIM-COD-Size-3: 62432
-RIM-COD-Size-2: 58296
-RIM-COD-Size-1: 64264
-RIM-COD-Size-49: 51068
-RIM-COD-Size-48: 51068
-RIM-COD-Size-47: 51068
-RIM-COD-Size-46: 51068
-RIM-COD-Size-45: 51100
-RIM-COD-Size-44: 51068
+RIM-COD-Size-8: 60092
+RIM-COD-Size-7: 65844
+RIM-COD-Size-6: 67920
+RIM-COD-Size-5: 63236
+RIM-COD-Size-4: 61196
+RIM-COD-Size-3: 62976
+RIM-COD-Size-2: 57268
+RIM-COD-Size-1: 64344
+RIM-COD-Size-49: 51108
+RIM-COD-Size-48: 51108
+RIM-COD-Size-47: 51108
+RIM-COD-Size-46: 51108
+RIM-COD-Size-45: 27332
+RIM-COD-Size-44: 51108
 RIM-COD-URL-39: Genesis-39.cod
-RIM-COD-Size-43: 51068
+RIM-COD-Size-43: 51108
 RIM-COD-URL-38: Genesis-38.cod
 RIM-COD-URL-37: Genesis-37.cod
-RIM-COD-Size-42: 51068
+RIM-COD-Size-42: 51108
 RIM-COD-URL-36: Genesis-36.cod
-RIM-COD-Size-41: 51068
+RIM-COD-Size-41: 51072
 RIM-COD-URL-35: Genesis-35.cod
-RIM-COD-Size-40: 51068
+RIM-COD-Size-40: 51064
 RIM-COD-URL-34: Genesis-34.cod
 RIM-COD-URL-33: Genesis-33.cod
 RIM-COD-URL-32: Genesis-32.cod
 RIM-COD-URL-31: Genesis-31.cod
 RIM-COD-URL-30: Genesis-30.cod
-RIM-COD-Module-Dependencies: net_rim_cldc
-RIM-COD-SHA1-80: 1a 73 e2 e4 78 35 78 e2 ac ca 4e 2b e6 2b f5 76 02 2f f8 73
+RIM-COD-SHA1-83: 6f 17 6d 58 05 a6 7f 05 97 de 2b b7 c7 de e6 e0 3e 85 49 f4
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_browser,net_rim_os,net_rim_json_org
+RIM-COD-SHA1-82: 03 04 3e c8 e3 14 a7 6f 58 a7 ce c7 ed e2 ed e4 4b 21 f2 b1
+RIM-COD-SHA1-81: cd 47 95 db 47 46 bb 46 27 98 50 7c da fc e0 08 9b 52 ca 7d
+RIM-COD-SHA1-80: 95 93 f5 a7 bf a2 fb c6 e3 49 d8 d4 92 33 2a 9e 73 68 08 5f
 MIDlet-Vendor: BlackBerry Developer
-RIM-COD-Size-39: 51068
-RIM-COD-Size-38: 51032
-RIM-COD-Size-37: 51024
-RIM-COD-Size-36: 54260
-RIM-COD-Size-35: 51024
+RIM-COD-Size-39: 54304
+RIM-COD-Size-38: 51064
+RIM-COD-Size-37: 51064
+RIM-COD-Size-36: 51064
+RIM-COD-Size-35: 51064
 RIM-COD-URL-29: Genesis-29.cod
-RIM-COD-Size-34: 55732
+RIM-COD-Size-34: 51064
 RIM-COD-URL-28: Genesis-28.cod
-RIM-COD-Size-33: 51024
+RIM-COD-Size-33: 51064
 RIM-COD-URL-27: Genesis-27.cod
-RIM-COD-Size-32: 51024
+RIM-COD-Size-32: 51064
 RIM-COD-URL-26: Genesis-26.cod
-RIM-COD-Size-31: 51024
+RIM-COD-Size-31: 51064
 RIM-COD-URL-25: Genesis-25.cod
-RIM-COD-Size-30: 51024
+RIM-COD-Size-30: 51064
 RIM-COD-URL-24: Genesis-24.cod
 RIM-COD-URL-23: Genesis-23.cod
 RIM-COD-URL-22: Genesis-22.cod
 RIM-COD-URL-21: Genesis-21.cod
-RIM-COD-SHA1-79: a8 fd 3c eb 65 e2 80 23 58 a9 fb a1 f1 54 9d 01 d4 99 6f 40
+RIM-COD-SHA1-79: b8 86 1a f5 0b 8c fb 18 a8 88 55 34 68 13 1e c4 a1 af 63 ae
 RIM-COD-URL-20: Genesis-20.cod
-RIM-COD-SHA1-78: 81 79 31 0a 70 17 ec f0 7c b5 37 fd 15 a6 18 a5 50 61 6b 91
-RIM-COD-SHA1-77: 13 36 7c 6f d7 e1 1e fd 70 4e b2 82 6f 2f 1e 45 5f c5 d0 04
-RIM-COD-SHA1-76: 1c 41 15 28 33 a9 58 bf b7 c6 e9 65 a3 41 85 81 55 3a 2a cc
-RIM-COD-SHA1-75: 43 f4 c4 ca e0 d4 28 00 09 eb 3c f4 98 a3 50 d2 58 93 e3 dd
-RIM-COD-SHA1-74: a2 09 60 de af b4 2e 32 56 1c 5f 89 a8 87 85 c4 0b 91 be 40
-RIM-COD-SHA1-73: 38 bd f3 fb 0c 22 0a d0 05 6f cf 27 af 17 e2 10 7b bf 52 a7
+RIM-COD-SHA1-78: 20 89 d1 79 4d a5 ff 40 d2 ce 02 43 2a ce 85 26 22 ba 64 05
+RIM-COD-SHA1-77: 94 77 77 28 4f 45 f0 1a 2d e4 c7 d9 53 11 1b ed 29 0d 48 8c
+RIM-COD-SHA1-76: ab 5d e3 2c c9 e7 9f 89 56 30 13 fc d4 88 ba 8b 65 71 7d 34
+RIM-COD-SHA1-75: 8e aa 9e 8f 79 d1 f7 b0 d6 42 c7 d3 26 1a 2a be e4 75 6d 69
+RIM-COD-SHA1-74: 8f a1 fe 75 8f 15 19 47 89 a5 2b e1 2d ad da 5f 1d d1 e2 b4
+RIM-COD-SHA1-73: bb 4f dc db 3a 12 d7 76 c2 75 a5 99 67 fe 2b 30 77 fa ab 07
 RIM-COD-URL: Genesis.cod
-RIM-COD-SHA1-72: 1a 26 65 41 16 30 64 17 f8 de c1 3d 2d 7a 25 d8 e6 c2 3d 13
+RIM-COD-SHA1-72: d8 c3 b8 81 b6 c1 fd dd 39 e4 1a 9f 30 8b 55 dc fb 0f db 53
 MIDlet-Description: ME & WE
-RIM-COD-SHA1-71: 88 bd 1b a3 d5 c4 87 d7 bb 9c 93 4e 60 b0 aa 87 f4 f2 af 11
-RIM-COD-SHA1-70: d1 8c 76 b7 13 03 9f 57 d5 7e fd 04 2a 67 50 2f 30 32 98 ea
+RIM-COD-SHA1-71: 5f ac bc f1 d3 66 2a 51 05 47 50 fe 41 06 33 8f d9 6b 94 16
+RIM-COD-SHA1-70: 22 97 96 fe a0 4d 82 13 e2 41 60 27 d8 90 8a 35 51 12 79 3c
 RIM-COD-Module-Name: Genesis
-RIM-COD-Size-29: 51024
-RIM-COD-Size-28: 51024
-RIM-COD-Size-27: 51024
-RIM-COD-Size-26: 51024
-RIM-COD-Size-25: 51024
+RIM-COD-Size-29: 51064
+RIM-COD-Size-28: 51064
+RIM-COD-Size-27: 51064
+RIM-COD-Size-26: 51064
+RIM-COD-Size-25: 51064
 RIM-COD-URL-19: Genesis-19.cod
-RIM-COD-Size-24: 51024
+RIM-COD-Size-24: 54208
 RIM-COD-URL-18: Genesis-18.cod
-RIM-COD-Size-23: 31504
+RIM-COD-Size-23: 51064
 RIM-COD-URL-17: Genesis-17.cod
-RIM-COD-Size-22: 51024
+RIM-COD-Size-22: 51064
 RIM-COD-URL-16: Genesis-16.cod
-RIM-COD-Size-21: 51024
+RIM-COD-Size-21: 51064
 RIM-COD-URL-15: Genesis-15.cod
-RIM-COD-Size-20: 51024
+RIM-COD-Size-20: 51064
 RIM-COD-URL-14: Genesis-14.cod
 RIM-COD-URL-13: Genesis-13.cod
 RIM-COD-URL-12: Genesis-12.cod
 RIM-COD-URL-11: Genesis-11.cod
-RIM-COD-SHA1-69: 65 20 9b 5a 55 70 f8 46 d1 33 91 fd 04 98 17 a9 e4 6d 64 d2
+RIM-COD-SHA1-69: a5 a1 ef 1a 07 21 b4 51 ba 3f 3b 09 16 76 65 5e 84 31 eb 44
 RIM-COD-URL-10: Genesis-10.cod
-RIM-COD-SHA1-68: 06 85 b5 b9 3c 91 d3 3d 56 5c cb 7d ee d9 5f 23 8d 92 46 e0
-RIM-COD-SHA1-67: b2 74 b3 02 60 7d 45 44 a4 f8 fc 53 4f 24 8a 61 75 be 42 5c
-RIM-COD-SHA1-66: 36 53 9e 4d 5d 3a 80 f2 d2 5e d7 26 81 ba 79 72 d7 22 bf d4
-RIM-COD-SHA1-65: c2 e9 96 c4 b8 1e bd 74 f1 0b 63 8f 94 23 c6 a2 e0 2a 8a ac
-RIM-COD-SHA1-64: 9a 67 2a 0b 8a 35 1d ed 25 09 b8 f7 58 ba 3a fc b6 f9 95 e9
-RIM-COD-SHA1-63: d1 0c 53 f9 35 e2 3b a1 9c a8 b6 91 80 8c 09 42 8b 71 44 63
-RIM-COD-SHA1-62: 25 f8 e8 05 2e ff 92 a5 ad f5 78 9c 71 9d e7 40 1a ca 09 5f
-RIM-COD-SHA1-61: 3c 1e 1d b6 c2 f4 33 48 ef 9d 66 bc c4 72 8f ca c8 3e 7d 79
-RIM-COD-SHA1-60: b8 56 c3 29 56 f0 81 45 19 d0 97 18 07 da 0a 0e 27 38 92 52
-RIM-COD-Size-19: 51024
-RIM-COD-Size-18: 51024
-RIM-COD-Size-17: 51024
-RIM-COD-Size-16: 51024
-RIM-COD-Size-15: 51024
-RIM-COD-Size-14: 51024
-RIM-COD-Size-13: 51024
-RIM-COD-Size-12: 44044
-RIM-COD-Size-11: 51024
-RIM-COD-Size-10: 51024
-RIM-COD-SHA1-59: 81 8c 25 39 28 f7 2f fc 3b 52 27 d9 07 78 a1 93 bf 85 c3 88
-RIM-COD-SHA1-58: 01 40 9d 9b 6e 7a 76 84 32 63 ec e3 c6 8e d2 c7 ae ca c0 43
-RIM-COD-SHA1-57: 52 fd 02 d1 a1 7f 63 56 42 e5 e6 99 fc bb 54 db d1 d3 08 65
-RIM-COD-SHA1-56: c8 9e 45 ab fa d9 bb db 4f bb cf 13 bc b9 05 2b d7 7b f7 2d
-RIM-COD-SHA1-55: 83 a1 c1 e1 8d 8a b7 b2 09 7c d5 8a c3 0b 9b 73 02 ed f9 ce
-RIM-COD-SHA1-54: 23 a2 bd c2 49 a8 99 c2 0b 95 24 d3 d7 c3 dd b1 2a 2c e3 a4
-RIM-COD-SHA1-53: 5e 12 34 43 da 0e e6 45 3c 36 39 3a be 46 f0 85 eb d4 91 1d
+RIM-COD-SHA1-68: 71 01 da 58 03 da 39 2a fd f4 61 ba b8 e4 13 97 d1 c0 f0 37
+RIM-COD-SHA1-67: 06 9f e0 4d db a7 52 c9 f5 80 e9 87 8f eb 1e 1c 11 92 d1 30
+RIM-COD-SHA1-66: 9d 03 d3 82 63 5a af 0b 9a fc d9 fe 8e 61 cc d8 08 d0 2c 6d
+RIM-COD-SHA1-65: df 69 5d 68 11 f9 58 09 60 e6 6a 23 fe 66 2b 81 65 6d 45 13
+RIM-COD-SHA1-64: 6d 4e 31 d7 89 6c 59 f8 5b c3 89 97 dd 9f 5a 7d 71 42 ae 8a
+RIM-COD-SHA1-63: ac a8 db 70 ef 25 f0 a8 22 76 12 06 df e8 58 d1 d2 3c 2b 43
+RIM-COD-SHA1-62: c6 7f 91 f0 66 ac f7 1d 09 1a da 6c 78 3d 88 b1 7a 65 29 8c
+RIM-COD-SHA1-61: 4b 5b e6 59 a8 56 5d eb 88 03 d1 f0 94 de 46 ee 70 59 52 38
+RIM-COD-SHA1-60: 1c 8c f4 af 17 6a dd 58 d4 5a 12 87 05 2a e2 5f e5 2e d3 af
+RIM-COD-Size-19: 51064
+RIM-COD-Size-18: 51064
+RIM-COD-Size-17: 51064
+RIM-COD-Size-16: 51064
+RIM-COD-Size-15: 51064
+RIM-COD-Size-14: 51064
+RIM-COD-Size-13: 42096
+RIM-COD-Size-12: 51064
+RIM-COD-Size-11: 51064
+RIM-COD-Size-10: 51064
+RIM-COD-SHA1-59: 4f 9b b5 d5 8f 8e 4c a4 77 ee 9a 7a 32 2a 05 8f 8d 2e b1 32
+RIM-COD-SHA1-58: 15 e3 fe 44 11 de 99 7b ee 9f 63 c7 69 40 2a 15 b7 fb be fa
+RIM-COD-SHA1-57: b5 ca 73 3f 33 f5 d2 9d a8 17 2b dd cf 0a 58 e3 65 1c a7 0b
+RIM-COD-SHA1-56: 7f 46 6e 77 97 74 c2 fc 46 58 6a 8d 8c ae b5 f1 d8 9a cc ef
+RIM-COD-SHA1-55: a9 f0 1d 8f a1 6e c3 ac 99 76 83 25 58 b3 80 2d 0d 37 66 af
+RIM-COD-SHA1-54: ff 45 ca f2 df 0b 40 75 49 43 71 95 60 b0 f9 1d 8a d4 0e ea
+RIM-COD-SHA1-53: 85 4c 63 5d 21 6a 5b 2c ed 15 39 28 be 54 61 6e 9a a4 1e 1a
 MIDlet-1: MEWE,img/icon.png,
-RIM-COD-SHA1-52: 03 b4 ed 35 c9 9e 5a 3f b1 4d 64 72 e1 15 dd a1 d7 88 8f d2
-RIM-COD-SHA1-51: 1a f4 dc 57 3d 71 cb 05 4f 8a 3c a4 82 1d 35 df e0 8f fd bc
-RIM-COD-SHA1-50: 74 b1 c9 78 de 80 78 8c bc 72 bd 06 a2 8c 4f 80 60 79 e0 54
-RIM-COD-SHA1: 64 1e d7 44 30 55 60 6c ca c5 a2 27 05 18 59 b3 92 e1 3b a3
-RIM-COD-SHA1-49: 46 55 90 af a7 3f 4c 82 b4 35 3a bd 10 8b 76 bf 8b 63 4a 3b
-RIM-COD-SHA1-48: 8d 4f 63 f2 ae a3 8c cd 2c 79 c9 fa d2 8c 58 df a3 7b 71 ee
-RIM-COD-SHA1-47: 32 d0 1c 41 23 6d ed 5b 78 fc 42 99 eb d7 8d 37 20 af ff 88
-RIM-COD-SHA1-46: 3b 70 10 db ae 9f 31 2f 67 1f 4e 20 e7 c9 5d 70 15 0b da a0
-RIM-COD-SHA1-45: df 20 52 2b 8b 08 19 b0 88 43 b2 9c ea d6 71 db 7c a2 de e6
-RIM-COD-SHA1-44: 3b 9b aa 9e 9c 2d f4 93 bd 3b cb 1e 42 9b ff ab eb db 2b 98
-RIM-COD-SHA1-43: fb 81 22 b5 10 f6 b2 09 ac b3 04 f2 3e c2 8d b8 80 c9 74 69
-RIM-COD-SHA1-42: 01 69 7c 7f 95 d3 e3 76 61 fe c8 f5 30 76 31 1d 51 fe 05 b2
-RIM-COD-SHA1-41: f5 32 9e 93 5e e4 45 52 1e 11 54 cc a9 b0 57 0d 5a d1 92 f4
-RIM-COD-SHA1-40: bf c9 3c d4 e9 0c 74 9a fb c7 e0 3f 48 1a 02 3d f2 35 ac 07
-RIM-COD-SHA1-39: f8 10 e1 e0 bd 11 dd e1 12 46 e8 6a f7 80 cc 1b 4e a7 63 c3
-RIM-COD-SHA1-38: eb 56 79 a6 2e 96 60 7d 16 cb 79 45 61 d6 56 5f b6 83 83 d4
-RIM-COD-SHA1-37: 75 d3 cb b2 3e b1 e2 bf 1c b2 87 25 7c 83 d9 57 9c d9 f1 e8
-RIM-COD-SHA1-36: 57 22 b3 5d 2d a8 8e cd c6 04 f8 a8 a9 08 de 27 32 3f db ac
+RIM-COD-SHA1-52: a5 66 a9 41 a7 98 d3 93 fc db 33 63 a9 69 f6 17 9b db a6 68
+RIM-COD-SHA1-51: e8 cc d5 09 14 73 c4 64 a9 a0 bc c9 3d 01 e6 97 c0 2a eb 93
+RIM-COD-SHA1-50: b0 e9 24 ea 8e 53 29 2e ef 06 45 44 0f ce 6a 91 f7 76 3a ef
+RIM-COD-SHA1: 93 a3 28 65 89 ee a0 90 9a a7 ba db 2a 9d 80 92 75 86 bd 46
+RIM-COD-SHA1-49: be 4c 01 e3 3f 45 de ea 14 91 44 76 12 fa 6b b2 da b2 fd e5
+RIM-COD-SHA1-48: 1a a0 1a 17 a2 8a bb 10 c7 11 cc 9c fc 57 04 d8 cd 20 c9 68
+RIM-COD-SHA1-47: 0c 08 1f df 49 11 82 30 6c 8f 93 87 ee af 5a 72 ae 6b 23 28
+RIM-COD-SHA1-46: b1 03 4f f3 1f 82 fb cd 84 cf e4 0b 21 ef b1 a1 ad 89 e2 05
+RIM-COD-SHA1-45: 6f d3 d9 b0 cd fa 6f 88 f5 78 87 82 0f e4 e0 7a 21 a6 67 52
+RIM-COD-SHA1-44: 53 62 46 2c 2e 77 da ca 9c d9 51 48 7e 6a 60 e0 3e d3 27 9e
+RIM-COD-SHA1-43: 05 bb dc 24 99 bb 05 bd 66 85 bf 4c 31 92 df cc 6a 87 76 0d
+RIM-COD-SHA1-42: 91 bc ac de 15 7f d8 aa d5 38 20 08 be 4d 76 85 69 ea e3 fa
+RIM-COD-SHA1-41: 48 f3 dc 7f 2a f3 4d 8a 17 bf ec 19 52 f5 a1 10 ac 41 91 57
+RIM-COD-SHA1-40: 24 4f dd 1b f3 d4 ad 38 7e fc 51 a5 db e2 f4 51 bd 82 be f4
+RIM-COD-SHA1-39: 27 8b 83 08 c3 a6 8c a9 8c 52 ab 9b 6c 42 00 ad b8 fe cb 58
+RIM-COD-SHA1-38: ba a8 92 0a 01 78 50 71 05 ec 8a 5f 98 d3 5b 24 52 f9 94 9a
+RIM-COD-SHA1-37: ee 47 21 0b 6c 92 39 b8 8e 31 57 fa f0 2c 96 1d e5 df 00 fd
+RIM-COD-SHA1-36: 98 17 ab 89 da 2e 1c a0 41 8f ea b1 74 9c 91 e6 27 ad 3b 71
 MIDlet-Jar-URL: codeName_Genesis.jar
-RIM-COD-SHA1-35: 3a ed 0a 4a d6 f8 55 b2 d0 eb dd b0 d9 99 7a c0 f1 0d c0 55
-RIM-COD-SHA1-34: a8 f8 31 a9 46 a4 3b b4 fe 80 42 11 0a 07 da 48 2c b6 64 b5
-RIM-COD-SHA1-33: af 7a 09 b4 f9 69 a0 85 36 c7 35 42 58 45 60 4e a9 b0 fe d7
-RIM-COD-SHA1-32: 0c c9 08 fc 35 e8 50 c6 06 dc 5a 65 ea 12 fa 6f 67 4d c8 3c
-RIM-COD-SHA1-31: fa 6a c9 e9 f7 31 fe b4 67 d2 be 3c 20 bb 60 ac 40 9d 16 f9
-RIM-COD-SHA1-30: 14 ec b3 60 ff f5 e3 42 0e c3 a5 78 44 89 c9 aa 30 3a 7d 65
-RIM-COD-SHA1-9: 21 0f 9d 48 e6 ff 66 8b 73 0c b9 c2 70 7c c0 49 d2 e9 75 35
-RIM-COD-SHA1-8: 53 19 1e b1 3b 4b 33 88 31 f8 aa 19 ce 14 b0 d1 4a b9 a6 a3
-RIM-COD-SHA1-7: d7 aa ce f3 e0 0f de 8c 70 a1 55 a3 4c ff c0 a7 05 8e 74 0a
-RIM-COD-SHA1-6: 59 e7 53 a0 fb 1a 05 0d 59 8f be 51 5b 63 d0 d4 50 46 69 6f
-RIM-COD-SHA1-5: 07 4a 86 f8 b1 93 36 c9 92 39 dd 02 86 5a 46 aa fb df 5a c9
-RIM-COD-SHA1-4: 2e 19 8c 58 b3 d6 e1 27 3a a2 df 10 dd 43 e2 eb a9 da 27 ac
-RIM-COD-SHA1-3: d4 ff af 59 26 c3 b3 67 79 98 ad 06 c9 20 cd 4c b6 5b 7c 0b
-RIM-COD-SHA1-2: 73 8a 35 b7 59 e8 07 10 92 df 3c b7 c0 4a 82 35 9d a8 81 7a
-RIM-COD-SHA1-1: 1d db 54 a7 f0 a1 06 79 d5 65 78 bc d6 a9 93 4b 7e 21 0e 21
-RIM-COD-SHA1-29: 6d 7d df d8 8b cc c3 55 41 4a b4 6e ba b8 eb 55 46 aa 5b 3e
-RIM-COD-SHA1-28: 76 7b b7 0d 65 09 06 1e 0a c4 9a 71 aa a0 48 42 bc 30 d3 e2
-RIM-COD-SHA1-27: 88 ae 81 9a 97 3b 7c c5 c3 e5 eb a9 f6 55 c9 41 2f cb 4a de
-RIM-COD-SHA1-26: 17 d4 f1 d2 31 f4 51 c2 70 6f 91 f6 e9 cf cf 8a d2 27 ab 7e
-RIM-COD-SHA1-25: 6b 82 27 d5 39 b7 fc 35 20 8f c8 c9 9e 14 a4 36 c0 7e 8b c5
-RIM-COD-SHA1-24: be 17 bf c9 59 85 a9 91 ff 1c be 87 e3 4c eb 33 4c 4e 30 f0
-RIM-COD-SHA1-23: 65 87 4f ee 06 79 95 bc 39 15 ed 0d 4d 88 7f 6f 5d 67 3c e9
-RIM-COD-SHA1-22: 21 47 5b c9 07 e4 99 8a ac 23 ec 8e 00 f9 9b 38 8b 41 ff 09
-RIM-COD-SHA1-21: fc b0 3f 8b c2 5a 8b f0 d1 93 d1 a7 0f 33 bb d8 5b 70 f0 3c
-RIM-COD-SHA1-20: 52 0d 19 19 ec 6a 7c 5f 1e 9c 29 67 b9 2c 86 ee 3e 89 10 b7
-RIM-COD-Creation-Time: 1368223455
-RIM-COD-SHA1-19: c7 7a dc d1 a7 c8 4b 15 1f b6 08 62 fb cf 3f 0c 47 7c a2 55
-RIM-COD-SHA1-18: 7d 42 f1 96 73 31 c6 83 d9 08 8f 18 87 fd d6 40 97 be db 40
-RIM-COD-SHA1-17: 74 fd ef 54 ad 73 c0 e1 16 40 d8 1c 69 d8 e3 e5 9f 9b d1 d1
-RIM-COD-SHA1-16: e4 75 eb f6 90 31 49 32 ec 8a a9 ac ca ed 11 ab 12 d1 b1 b2
-RIM-COD-SHA1-15: a2 f7 96 3a 98 fe 66 e2 d2 71 cc 87 7d 2a b4 f6 60 d5 14 a8
-RIM-COD-SHA1-14: df fc f5 b1 05 e0 bc 10 72 44 4b d1 49 22 40 b6 fa af 50 18
-RIM-COD-SHA1-13: ab 0c 82 8b aa d6 f1 a4 a0 ed b8 33 02 08 25 67 3e a2 82 19
-RIM-COD-SHA1-12: 76 ed a2 de fb 47 12 b6 94 9e 19 35 a0 ea 24 d9 31 fd 9a 68
-RIM-COD-SHA1-11: 5b 53 df 1b 85 e2 13 c5 08 4f 7f 5a 06 29 99 11 33 a5 04 ba
-RIM-COD-SHA1-10: 47 e6 7a 14 00 48 53 a1 f8 32 aa 38 4c 52 72 60 d2 8e e8 0d
+RIM-COD-SHA1-35: f4 04 dd 0a 97 6c c0 8f aa 70 0e d9 ad 31 18 b5 f6 e2 ea 00
+RIM-COD-SHA1-34: 00 6e e8 2b dd b2 e8 32 81 10 97 82 3c 6c 86 bc 5a ea 52 9d
+RIM-COD-SHA1-33: d6 bc f2 5d fa d8 3b 1f ba fe ce 28 4c b7 a7 9d c0 9e ee eb
+RIM-COD-SHA1-32: 7c 1e c4 c6 76 d6 69 93 cb 5c 37 a7 a0 52 d6 b2 3c 64 62 5b
+RIM-COD-SHA1-31: 14 83 2e c7 09 92 22 0a de 4d b3 4f 05 fc 1d 14 d7 34 1b 04
+RIM-COD-SHA1-30: ee ac da a6 cc 08 a5 66 d3 f3 c1 33 3c 09 48 90 50 65 f7 ab
+RIM-COD-SHA1-9: 6e 60 cc ec d0 f7 f4 4c ae 65 f8 d8 2e ff f4 ce 2d d5 60 1d
+RIM-COD-SHA1-8: 34 97 48 59 44 9d 25 71 de 47 e1 b8 31 45 4f 6f f9 9e 4a 7a
+RIM-COD-SHA1-7: a0 30 1b 44 aa 79 70 ef 1d 30 cc c5 39 ac f1 fe 8b 2c 28 bb
+RIM-COD-SHA1-6: c2 dd f8 9c 07 8a 23 70 49 47 3c db 82 7b b8 2d e1 e2 73 81
+RIM-COD-SHA1-5: 92 21 9f e6 21 0d 9a fe d6 f8 d7 eb 48 e0 0f d4 94 9d 21 1d
+RIM-COD-SHA1-4: fb c5 b0 4f b7 16 bf 1d b1 43 b1 ac ab 2d 2a d1 19 4c 20 ea
+RIM-COD-SHA1-3: dc a1 9b 46 3d 2e 70 c6 66 07 19 0e d3 76 b4 1e 01 8e 24 2c
+RIM-COD-SHA1-2: ea 73 fc 8b f6 95 db 0f 3d 77 98 77 4d f3 eb cd f2 98 e5 19
+RIM-COD-SHA1-1: f3 8a d1 08 78 fa 46 20 2c 3e 4f 8a 27 96 d0 43 64 5b 8a 6c
+RIM-COD-SHA1-29: a8 f2 86 c2 11 90 88 7d 74 07 14 62 58 f4 f8 21 db 14 e4 81
+RIM-COD-SHA1-28: 89 f7 f1 c8 6e e1 7e 1c 14 b6 d7 e8 d2 8a 1a 56 28 56 ec b3
+RIM-COD-SHA1-27: d9 09 90 fa 3d 9e 02 94 ae cf ce 3b b8 77 8b 95 1f d4 1f 47
+RIM-COD-SHA1-26: a1 df ae 62 ab ba b6 18 d8 4a 07 34 fb 7b 5a ac a4 28 0f a0
+RIM-COD-SHA1-25: eb ae 41 01 fc e3 e5 29 53 66 89 f9 42 15 83 32 62 1e ce f5
+RIM-COD-SHA1-24: 30 90 5f 2d e1 00 77 61 aa 0b 31 2d 27 38 e4 1f eb bb a7 91
+RIM-COD-SHA1-23: 5f 90 eb 7c 89 44 5e fa c6 b4 2a e7 bd 9c 85 57 dd 00 32 26
+RIM-COD-SHA1-22: b5 95 ae dd d2 25 7e 4a f5 aa 46 ea eb a4 83 65 a1 8f 11 54
+RIM-COD-SHA1-21: e9 c1 f9 e4 97 23 65 37 b8 74 de b8 d6 b3 31 8b 40 00 3b 2f
+RIM-COD-SHA1-20: 2c c8 a0 0b 32 f6 9b 89 16 37 d4 0a a6 f4 f2 30 38 8b f7 0d
+RIM-COD-Creation-Time: 1369426189
+RIM-MIDlet-Position-1: 1
+RIM-COD-SHA1-19: 9d 05 09 53 0d 62 40 20 51 5f d0 71 4b f4 e2 2d 85 a8 07 77
+RIM-COD-SHA1-18: b9 d0 90 18 83 78 ff 46 1f f3 af a4 d5 39 1b 5d ba d7 6c 68
+RIM-COD-SHA1-17: e1 62 0a 26 ae 56 64 e3 ad d2 69 83 08 b1 f0 73 d5 7e 4e 7f
+RIM-COD-SHA1-16: 2e d6 aa 50 67 8e af 23 b3 af 62 2c 76 7e 4c 26 5a d1 4a d8
+RIM-COD-SHA1-15: cb 7a 1f 29 a4 74 18 50 87 5a c1 90 82 37 a0 c4 5d 27 95 eb
+RIM-COD-SHA1-14: 12 15 fc f7 4b c8 a6 7e 96 70 c9 1d 2e 59 a1 34 7e bc 4b 44
+RIM-COD-SHA1-13: a9 55 9b fc e7 bd 1e 24 7e 68 c5 c6 59 ff 38 5c e9 49 8d 1f
+RIM-COD-SHA1-12: 1e 65 35 a5 be 2d 1d da 5d 32 ea 2a f8 fe 4c 26 a1 31 8f a2
+RIM-COD-URL-83: Genesis-83.cod
+RIM-COD-SHA1-11: 31 6e fc f7 70 1a 7a c3 79 35 f0 2f 92 52 13 7d a0 77 90 a1
+RIM-COD-URL-82: Genesis-82.cod
+RIM-COD-SHA1-10: 6e 90 96 ce 82 2f 15 22 26 00 d3 89 0b 79 fb a3 23 a4 b4 07

@@ -37,7 +37,7 @@ public class ListStyleButtonField extends Field
     
     private static final int COLOR_BACKGROUND = 0xFFFFFF;
     private static final int COLOR_BORDER = 0xBBBBBB;
-    private static final int COLOR_BACKGROUND_FOCUS = 0x186DEF;
+    private static final int COLOR_BACKGROUND_FOCUS = Color.RED;
     
     
     private MyLabelField _labelField;

@@ -69,7 +69,7 @@ public class UIExampleRatingScreen extends UIExampleScreen
                                             , Bitmap.getBitmapResource( "rating_dot.png" )
                                             , Bitmap.getBitmapResource( "rating_star_focus.png" )
                                             , Bitmap.getBitmapResource( "rating_dot_focus.png" )
-                                            , 5, 1, Field.FIELD_HCENTER );
+                                            , 10, 1, Field.FIELD_HCENTER );
         rating2.setMargin( 7, 0, 15, 0 );
         ratingManager.add( labelTwo );
         ratingManager.add( rating2 );

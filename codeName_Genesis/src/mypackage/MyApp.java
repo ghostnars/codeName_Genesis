@@ -1,6 +1,7 @@
 package mypackage;
 
 import net.rim.device.api.ui.UiApplication;
+import crearCueta.crearCuenta;
 
 /**
  * This class extends the UiApplication class, providing a
@@ -27,6 +28,6 @@ public class MyApp extends UiApplication
     public MyApp()
     {        
         // Push a screen onto the UI stack for rendering.
-        pushScreen(new ListFieldTest());
+        pushScreen(new crearCuenta());
     }    
 }

@@ -15,6 +15,8 @@ import net.rim.device.api.ui.decor.BackgroundFactory;
 import com.samples.toolkit.ui.component.AutoScaleImageField;
 import com.samples.toolkit.ui.component.BitmapButtonField;
 
+import crearCueta.crearCuenta1;
+
 import estilos.Estilos;
 
 /**
@@ -31,7 +33,7 @@ public final class MyScreen extends Estilos
 	Bitmap bannerImage;
 	
 	int tFuente;
-	
+	int topTitulo;
 	Font fLite;
 	Font fBold;
 	
@@ -48,9 +50,15 @@ public final class MyScreen extends Estilos
     	
     	if (Display.getWidth() == 320)
 		{
-			bannerImage = Bitmap.getBitmapResource("titulo_320.png");
-
-			tFuente = 20;
+    		bannerImage = Bitmap.getBitmapResource("head_640.png");
+			btnNuevo 	= Bitmap.getBitmapResource("3btn_nuevo_640.png");
+			btnNuevo1 	= Bitmap.getBitmapResource("3btn_nuevo1_640.png");
+			
+			btnYa 	= Bitmap.getBitmapResource("3btn_ya_640.png");
+			btnYa1 	= Bitmap.getBitmapResource("3btn_ya1_640.png");
+			
+			tFuente = 30;
+			topTitulo = 13;
 		}
 		if (Display.getWidth() == 360)
 		{
@@ -73,6 +81,7 @@ public final class MyScreen extends Estilos
 			btnYa1 	= Bitmap.getBitmapResource("3btn_ya1_640.png");
 			
 			tFuente = 30;
+			topTitulo = 13;
 		}
     	
 		try
@@ -104,7 +113,9 @@ public final class MyScreen extends Estilos
             }
         };	
         head.setBackground(BackgroundFactory.createBitmapBackground(bannerImage));
-		head.add(new RichTextField("INGRESAR" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER));
+        RichTextField tituloHead = new RichTextField("INGRESAR" , RichTextField.FIELD_HCENTER | RichTextField.FIELD_VCENTER | RichTextField.TEXT_ALIGN_HCENTER);
+        tituloHead.setMargin(topTitulo, 0, 0, 0);
+        head.add(tituloHead);
 		setBanner(head);
 		//End Banner
 		
